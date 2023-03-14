@@ -1,0 +1,2 @@
+C:\Users\zesto\Desktop\Разработка прикл ПО\ControlSystem\x64\Debug\ControlSystem.exe
+C:\Users\zesto\Desktop\ControlSystem\x64\Debug\ControlSystem.exe

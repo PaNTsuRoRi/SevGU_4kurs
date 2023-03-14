@@ -1,0 +1,8 @@
+﻿  Board.cpp
+  Main.cpp
+C:\Users\zesto\Desktop\SevGU\4kurs\1semestr\РППО\GameXO\GameXO\Main.cpp(17,11): warning C4101: board: неиспользованная локальная переменная
+  Nickname.cpp
+  Logic.cpp
+  util.cpp
+  Создание кода...
+  GameXO.vcxproj -> C:\Users\zesto\Desktop\SevGU\4kurs\1semestr\РППО\GameXO\x64\Debug\GameXO.exe

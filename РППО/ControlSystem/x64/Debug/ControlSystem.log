@@ -1,0 +1,10 @@
+﻿  ControlSystem.cpp
+  main.cpp
+  sensorTemp.cpp
+  sensorWet.cpp
+  storage.cpp
+  tempSystem.cpp
+  utils.cpp
+  wetSystem.cpp
+  Создание кода...
+  ControlSystem.vcxproj -> C:\Users\zesto\Desktop\Разработка прикл ПО\ControlSystem\x64\Debug\ControlSystem.exe

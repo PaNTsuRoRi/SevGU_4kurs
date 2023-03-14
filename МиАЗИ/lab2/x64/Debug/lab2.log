@@ -1,0 +1,4 @@
+﻿  lab2.cpp
+C:\Users\zesto\Desktop\МиАЗИ\lab2\lab2.cpp(12,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\zesto\Desktop\МиАЗИ\lab2\lab2.cpp(12,13): warning C4244: инициализация: преобразование "double" в "const int", возможна потеря данных
+  lab2.vcxproj -> C:\Users\zesto\Desktop\МиАЗИ\lab2\x64\Debug\lab2.exe
