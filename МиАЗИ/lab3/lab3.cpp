@@ -6,12 +6,24 @@ using namespace std;
 
 const int rounds = 18;
 
-string encrypt(string message) {
-    char* result = new char[message.length() + 1]();
-    for (int i = 0; i < message.length(); i++) {
-        for (int j = 0; j < rounds; j++) {
+byte fun(char sym) {
+	return (byte)(sym << 3);
+}
 
+string encrypt(string message) {
+	char res;
+    char* result = new char[message.length() + 1];
+	message.copy(result, message.length() + 1);
+	result[message.length()] = '\0';
+    for (int i = 0; i < message.length(); i+=2) {
+        for (int j = 0; j < rounds; j++) {
+			res = result[i];
+			result[i] = (char)(fun(result[i]) ^ result[i + 1]);
+			result[i + 1] = res;
         }
+		res = result[i];
+		result[i] = result[i + 1];
+		result[i + 1] = res;
     }
     return result;
 }
@@ -27,6 +39,7 @@ int main() {
 	message3 = encrypt(message2);
 	cout << "Зашифрованное сообщение: " << endl;
 	cout << message2;
-	cout << "Расшифрованное сообщение: " << endl;
+	cout << "\nРасшифрованное сообщение: " << endl;
 	cout << message3;
+	cin.get();
 }
