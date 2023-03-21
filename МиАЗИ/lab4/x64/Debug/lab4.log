@@ -1,0 +1,4 @@
+﻿  lab4.cpp
+C:\Users\zesto\OneDrive\Рабочий стол\Проги\МиАЗИ\lab4\lab4.cpp(20,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\zesto\OneDrive\Рабочий стол\Проги\МиАЗИ\lab4\lab4.cpp(30,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  lab4.vcxproj -> C:\Users\zesto\OneDrive\Рабочий стол\Проги\МиАЗИ\lab4\x64\Debug\lab4.exe
