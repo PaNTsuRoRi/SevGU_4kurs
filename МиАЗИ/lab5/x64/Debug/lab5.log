@@ -1,0 +1,3 @@
+﻿  lab5.cpp
+C:\Users\zesto\OneDrive\Рабочий стол\Проги\МиАЗИ\lab5\lab5.cpp(15,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab5.vcxproj -> C:\Users\zesto\OneDrive\Рабочий стол\Проги\МиАЗИ\lab5\x64\Debug\lab5.exe
